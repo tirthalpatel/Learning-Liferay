@@ -1,6 +1,6 @@
 # Learning Liferay
 
-Few Liferay Portal Plugins/Apps, which I had tried while exploring Liferay and doing R&D.
+Few Liferay Portal Plugins/Apps, which I tried while exploring Liferay and doing R&D.
 
 ## Liferay Portal 6.2 - Getting Started Guide - Development Setup using Eclipse Kepler
 
