@@ -2,7 +2,7 @@
 
 The [liferay-plugins-sdk-6.2-ce-ga4](http://sourceforge.net/projects/lportal/files/Liferay%20Portal/6.2.3%20GA4/liferay-plugins-sdk-6.2-ce-ga4-20150416163831865.zip/download), which contains sample Liferay plugins code for my learning and R&D purpose. These plugins are primarily compatible with [Liferay Portal CE 6.2 GA4](http://sourceforge.net/projects/lportal/files/Liferay%20Portal/6.2.3%20GA4/).
 
-For more information about Liferay Plugins SDK, see its original [README file](https://github.com/tirthalpatel/Learning-Liferay/gs-plugins-sdk-6.2-ce-ga4/blob/master/README.markdown.original).
+For more information about Liferay Plugins SDK, see its original [README file](https://github.com/tirthalpatel/Learning-Liferay/blob/master/gs-plugins-sdk-6.2-ce-ga4/README.markdown.original).
 
 ## Quick Setup Instructions
 
