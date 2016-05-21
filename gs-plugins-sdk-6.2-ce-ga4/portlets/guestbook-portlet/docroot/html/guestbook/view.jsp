@@ -1,7 +1,9 @@
 <%@include file="/html/init.jsp"%>
 
+<!-- *REMARK*: Message configuration in "docroot\WEB-INF\src\content\Language.properties" for localization support -->
 <liferay-ui:error key="guestbook-cannot-be-displayed" message="guestbook-cannot-be-displayed" />
 
+<!-- *REMARK*: Define constants in WebKeys class instead of writing hard-coded values in UI and Controller components -->
 <%
 	Guestbook guestbook = (Guestbook) renderRequest
 			.getAttribute(WebKeys.GUESTBOOK);
@@ -17,7 +19,7 @@
     <div class="search-form">
 		<span class="aui-search-bar">
 		    <aui:input inlineField="<%= true %>" label="" name="keywords" size="30" title="search-entries" type="text" />
-		
+
 		    <aui:button type="submit" value="search" />
 		</span>
     </div>
@@ -25,6 +27,7 @@
 
 <aui:nav cssClass="nav-tabs">
 
+	<!-- *REMARK*: Can access service layer code using *LocalServiceUtil class -->
 	<%
      List<Guestbook> guestbooks = GuestbookLocalServiceUtil
                 .getGuestbooks(scopeGroupId, WorkflowConstants.STATUS_APPROVED);
@@ -36,13 +39,13 @@
 				if (curGuestbook.getGuestbookId() == guestbook.getGuestbookId()) {
 					cssClass = "active";
 				}
-				
+
 				if (GuestbookPermission.contains(
 						permissionChecker, curGuestbook.getGuestbookId(), "VIEW")) {
-					
+
 	%>
-	
-	
+
+
 
 		<portlet:renderURL var="viewPageURL">
 			<portlet:param name="mvcPath" value="/html/guestbook/view.jsp" />
@@ -52,9 +55,9 @@
 
 		<aui:nav-item cssClass="<%=cssClass%>" href="<%=viewPageURL%>"
 			label="<%=HtmlUtil.escape(curGuestbook.getName())%>" />
-	<% 
+	<%
 			}
-		} 
+		}
 	%>
 
 </aui:nav>
@@ -92,7 +95,7 @@
 
 	<liferay-ui:search-container-row
 		className="com.liferay.docs.guestbook.model.Entry" modelVar="entry">
-		
+
 		<portlet:renderURL var="viewEntry">
 			<portlet:param name="mvcPath" value="/html/guestbook/view_entry.jsp" />
 			<portlet:param name="name" value="<%=entry.getName() %>" />
@@ -102,7 +105,7 @@
 		<liferay-ui:search-container-column-text property="message" href="<%= viewEntry %>"/>
 
 		<liferay-ui:search-container-column-text property="name" />
-		
+
 		<liferay-ui:search-container-column-jsp
             path="/html/guestbook/guestbook_actions.jsp"
             align="right" />

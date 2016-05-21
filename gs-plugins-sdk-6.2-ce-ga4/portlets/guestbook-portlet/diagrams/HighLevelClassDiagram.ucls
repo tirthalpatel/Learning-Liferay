@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.5" icons="false" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="com.liferay.docs.guestbook.service.impl.GuestbookLocalServiceImpl" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/service/impl/GuestbookLocalServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="596" y="789"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.liferay.docs.guestbook.service.GuestbookLocalServiceUtil" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/service/com/liferay/docs/guestbook/service/GuestbookLocalServiceUtil.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="973" y="334"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="com.liferay.docs.guestbook.service.GuestbookLocalService" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/service/com/liferay/docs/guestbook/service/GuestbookLocalService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="591" y="335"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="com.liferay.docs.guestbook.service.base.GuestbookLocalServiceBaseImpl" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/service/base/GuestbookLocalServiceBaseImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="594" y="541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.liferay.docs.guestbook.portlet.GuestbookAdminPortlet" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/portlet/GuestbookAdminPortlet.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="111" y="223"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.liferay.docs.guestbook.portlet.GuestbookPortlet" project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/portlet/GuestbookPortlet.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="405" y="223"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="com.liferay.docs.guestbook.service.GuestbookService" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/service/com/liferay/docs/guestbook/service/GuestbookService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="265" y="540"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="com.liferay.docs.guestbook.service.GuestbookServiceUtil" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/service/com/liferay/docs/guestbook/service/GuestbookServiceUtil.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="265" y="375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="com.liferay.docs.guestbook.service.persistence.GuestbookPersistence" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/service/com/liferay/docs/guestbook/service/persistence/GuestbookPersistence.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="970" y="787"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="com.liferay.docs.guestbook.service.persistence.GuestbookPersistenceImpl" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/service/persistence/GuestbookPersistenceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="971" y="882"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.liferay.docs.guestbook.workflow.GuestbookWorkflowHandler" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/workflow/GuestbookWorkflowHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="975" y="195"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.liferay.docs.guestbook.search.GuestbookIndexer" project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/search/GuestbookIndexer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1601" y="342"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.liferay.docs.guestbook.asset.GuestbookAssetRenderer" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/asset/GuestbookAssetRenderer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1374" y="707"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.liferay.docs.guestbook.asset.GuestbookAssetRendererFactory" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/asset/GuestbookAssetRendererFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1202" y="507"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.liferay.docs.guestbook.service.impl.GuestbookServiceImpl" 
+    project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/service/impl/GuestbookServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="972" y="550"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="true" package="true" protected="true" private="true" static="false"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.liferay.docs.guestbook.util.WebKeys" project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/util/WebKeys.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="404" y="113"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.liferay.docs.guestbook.util.PortletKeys" project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/util/PortletKeys.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1600" y="447"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.liferay.docs.guestbook.util.ActionKeys" project="guestbook-portlet" 
+    file="/guestbook-portlet/docroot/WEB-INF/src/com/liferay/docs/guestbook/util/ActionKeys.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1217" y="234"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.liferay.portal.kernel.search.BaseIndexer" project="guestbook-portlet" 
+    file="D:/Tirthal-LABs/Liferay/liferay-portal-6.2-CE-GA4/tomcat-7.0.42/lib/ext/portal-service.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1602" y="209"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.liferay.portal.util.PortletKeys" project="guestbook-portlet" 
+    file="D:/Tirthal-LABs/Liferay/liferay-portal-6.2-CE-GA4/tomcat-7.0.42/lib/ext/portal-service.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1600" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.liferay.portal.kernel.workflow.BaseWorkflowHandler" 
+    project="guestbook-portlet" 
+    file="D:/Tirthal-LABs/Liferay/liferay-portal-6.2-CE-GA4/tomcat-7.0.42/lib/ext/portal-service.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="975" y="75"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.liferay.portal.security.permission.ActionKeys" project="guestbook-portlet" 
+    file="D:/Tirthal-LABs/Liferay/liferay-portal-6.2-CE-GA4/tomcat-7.0.42/lib/ext/portal-service.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1374" y="82"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.liferay.portlet.asset.model.BaseAssetRenderer" project="guestbook-portlet" 
+    file="D:/Tirthal-LABs/Liferay/liferay-portal-6.2-CE-GA4/tomcat-7.0.42/lib/ext/portal-service.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1601" y="705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <association id="30">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="31" name="guestbookPersistence"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="35">    
+    <bendpoint x="516" y="418"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="36" name="guestbookLocalService"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="38">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="39">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <association id="41">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="42" name="_service"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <realization id="45">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <dependency id="46">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="47">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <realization id="48">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <generalization id="49">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <generalization id="50">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <association id="55">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="56" name="guestbookService"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="58">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="59">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="60" name="_service"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+    accessors="true" visibility="false">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

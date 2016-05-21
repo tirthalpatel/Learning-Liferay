@@ -2,6 +2,8 @@
 <!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
 <service-builder package-path="com.liferay.docs.guestbook">
 	<author>Rich Sezov</author>
+
+	<!-- *REMARK*: This prefixes the table names in the database so they don’t conflict with any other similarly named tables. -->
 	<namespace>GB</namespace>
 
 	<entity name="Guestbook" local-service="true" remote-service="true" uuid="true">
@@ -9,6 +11,8 @@
 		<!-- PK fields -->
 
 		<column name="guestbookId" type="long" primary="true"></column>
+
+		<!-- *REMARK*: Don't forget to Group instance and audit fields columns. Because all of Liferay’s built in applications take advantage of this context. -->
 
 		<!-- Group instance -->
 
@@ -25,7 +29,9 @@
         <column name="status" type="int" />
         <column name="statusByUserId" type="long" />
         <column name="statusByUserName" type="String" />
-        <column name="statusDate" type="Date" /> 
+        <column name="statusDate" type="Date" />
+
+		<!-- *REMARK*: Here the finder method names are as per Liferay suggested standards -->
 
         <finder name="GroupId" return-type="Collection">
             <finder-column name="groupId"></finder-column>
@@ -38,7 +44,7 @@
             <finder-column name="groupId"></finder-column>
             <finder-column name="status"></finder-column>
         </finder>
-        
+
         <reference package-path="com.liferay.portlet.asset" entity="AssetEntry" />
         <reference package-path="com.liferay.portlet.asset" entity="AssetLink" />
 	</entity>
@@ -66,8 +72,8 @@
         <column name="status" type="int" />
         <column name="statusByUserId" type="long" />
         <column name="statusByUserName" type="String" />
-        <column name="statusDate" type="Date" /> 
-        
+        <column name="statusDate" type="Date" />
+
         <finder name="G_G" return-type="Collection">
             <finder-column name="groupId"></finder-column>
             <finder-column name="guestbookId"></finder-column>
@@ -89,10 +95,12 @@
             <finder-column name="guestbookId"></finder-column>
             <finder-column name="status"></finder-column>
         </finder>
-        
+
         <reference package-path="com.liferay.portlet.asset" entity="AssetEntry" />
         <reference package-path="com.liferay.portlet.asset" entity="AssetLink" />
 	</entity>
+
+	<!-- *REMARK*: Don't forget to declare applicable custom exception classes to generate, which extends com.liferay.portal.kernel.exception.PortalException -->
 	<exceptions>
         <exception>GuestbookName</exception>
         <exception>EntryName</exception>
