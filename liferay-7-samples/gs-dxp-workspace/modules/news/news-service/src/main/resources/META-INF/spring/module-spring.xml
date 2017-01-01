@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="com.tirthal.learning.service.impl.NewsEntryLocalServiceImpl" id="com.tirthal.learning.service.NewsEntryLocalService" />
+	<bean class="com.tirthal.learning.service.impl.NewsEntryServiceImpl" id="com.tirthal.learning.service.NewsEntryService" />
+	<bean class="com.tirthal.learning.service.persistence.impl.NewsEntryPersistenceImpl" id="com.tirthal.learning.service.persistence.NewsEntryPersistence" parent="basePersistence" />
+</beans>

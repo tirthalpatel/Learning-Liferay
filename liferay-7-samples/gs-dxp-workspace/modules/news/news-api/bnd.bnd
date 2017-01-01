@@ -1,0 +1,7 @@
+Bundle-SymbolicName: news-api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.tirthal.learning.exception,\
+	com.tirthal.learning.model,\
+	com.tirthal.learning.service,\
+	com.tirthal.learning.service.persistence
